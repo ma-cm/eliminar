@@ -1,4 +1,4 @@
-obj-m += mem_grupo28.o
+obj-m += proc_grupo28.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(shell pwd) modules
